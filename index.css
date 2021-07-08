@@ -1,0 +1,49 @@
+*{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* Stylings for the navigation bar and its content */
+
+header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #F182ED;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+
+nav li {
+    list-style: none;
+    display: inline;
+    padding: 15px;
+    justify-content: space-between;
+}
+
+.myname{
+    font-weight: 600;
+    font-size: 25px;
+    color: blue;
+}
+
+nav ul a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFF500;
+}
+
+#navlist {
+    float: right;
+}
+
+#navlist a:hover {
+    color: rgb(0, 255, 55);
+    text-decoration:underline 2px solid black;
+}
+
+/* End of Navigation Bar stylings
+Background image, profile pic and the Hello text code stylings */
