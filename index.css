@@ -83,3 +83,28 @@ Part 1 div stylings */
     padding-bottom: 10px;
     font-size: 45px;
 }
+
+/* end of introduction styling.
+stylings for projects section */
+
+.projectsSection {
+    background-color: #E7BFCD;
+    padding-top: 20px;
+}
+
+h1 {
+    color: #4CAA4A;
+    text-align: center;
+}
+
+.hr {
+    color: black;
+    size: 50px;
+}
+
+.titlesAndIntro p{
+    text-align: center;
+    font-size: 24px;
+}
+
+/* Projects themselves stylings */
