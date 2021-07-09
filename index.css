@@ -2,6 +2,11 @@
     font-family: 'Josefin Sans', sans-serif;
 }
 
+body{
+    width: 100%;
+    height: 100%;
+}
+
 /* Stylings for the navigation bar and its content */
 
 header {
@@ -46,4 +51,35 @@ nav ul a{
 }
 
 /* End of Navigation Bar stylings
-Background image, profile pic and the Hello text code stylings */
+Part 1 div stylings */
+
+.part1{
+    width: 100%;
+    background-image: url(../Assets/Images/Wall1\ darken.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.part1 .profilePic img{
+    border-radius: 100px;
+}
+
+.introduction{
+    padding-left: 50px;
+    padding-top: 70px;
+}
+
+.introduction p{
+    /* font-size: 30px; */
+    padding-top: 60px;
+}
+
+.introduction, #introTextPart1{
+    color: yellow;
+    font-size: 30px;
+}
+.introduction, #introTextPart2{
+    color: rgb(240, 0, 248);
+    padding-bottom: 10px;
+    font-size: 45px;
+}
