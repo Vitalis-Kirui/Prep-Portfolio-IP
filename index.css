@@ -350,3 +350,33 @@ start of Skills stylings */
 /* end of skills styles
 
 end of about me styles*/
+
+/* styles for contact me section */
+
+#hireMe {
+    text-align: center;
+}
+.contactMe {
+    font-size: 24px;
+    border: 1px;
+    margin-top: 20px;
+    margin-left: 2px;
+    margin-right: 2px;
+    background-color: #DFB1B1;
+    padding: 30px;
+}
+
+.mb-3 {
+    width: 75%;
+    padding-left: 200px;
+}
+
+#contactButton {
+    padding: 15px;
+    margin-left: 200px;
+    border-radius: 20px;
+    background-color: blue;
+    color: yellow;
+}
+
+/* end of contact me section styles */
