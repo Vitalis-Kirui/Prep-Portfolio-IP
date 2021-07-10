@@ -283,3 +283,38 @@ button {
 /* end of maroon 5 stylings
 
 end of projects section stylinds */
+
+/* about me section styling */
+
+.aboutMe {
+    padding-top: 30px;
+    margin: 20px;
+}
+
+.colsAboutme {
+    columns: 3;
+}
+
+.colsAboutme ul {
+    font-size: 22px;
+    color: rgb(125, 13, 153);
+}
+
+#believe {
+    color: rgb(78, 32, 185);
+    font-size: 30px;
+    text-align: center;
+}
+
+.AcademicstitleANDimage {
+    background-color: #F8A6A6;
+}
+
+.Academics {
+    padding: 20px;
+    border: #C2A2A2;
+    box-shadow: brown;
+    background-color: #F8A6A6;
+}
+
+/* End of Academics code
