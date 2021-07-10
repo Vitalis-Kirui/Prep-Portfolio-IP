@@ -5,6 +5,7 @@
 body{
     width: 100%;
     height: 100%;
+    background-color: #E7BFCD;
 }
 
 /* Stylings for the navigation bar and its content */
@@ -32,6 +33,15 @@ nav li {
     font-weight: 600;
     font-size: 25px;
     color: blue;
+}
+
+.myname , a{
+    text-decoration: none;
+}
+
+.myname , a:hover {
+    text-decoration: none;
+    color: rgb(251, 255, 0);
 }
 
 nav ul a{
@@ -92,6 +102,17 @@ stylings for projects section */
     padding-top: 20px;
 }
 
+#GitButton {
+    padding: 7px;
+    border-radius: 20px;
+}
+
+#projectHead {
+    color: blue;
+    font-size: 40px;
+    padding-top: 10px;
+}
+
 h1 {
     color: #4CAA4A;
     text-align: center;
@@ -105,6 +126,8 @@ h1 {
 .titlesAndIntro p{
     text-align: center;
     font-size: 24px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
-/* Projects themselves stylings */
+/* end of Projects introduction part stylings */
