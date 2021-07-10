@@ -131,3 +131,48 @@ h1 {
 }
 
 /* end of Projects introduction part stylings */
+
+/* Projects themselves stylings */
+
+/* hotel project styling */
+
+#aboutHead {
+    font-size: 40px;
+    color: blue;
+}
+
+.hotel {
+    padding: 20px;
+    border: #C2A2A2;
+    box-shadow: brown;
+    background-color: #C2A2A2;
+    display: flex;
+    margin: 20px;
+}
+
+h2 {
+    padding-top: 30px;
+    color: #16868D;
+
+}
+
+.descriptionANDbutton {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 60px;
+}
+
+.hotel ,p ,button{
+    font-size: 24px;
+}
+
+button {
+    background-color: yellow;
+    font-size: 24px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-top: 20px;
+    color: blue;
+}
+
+/* end of hotel project styling */
