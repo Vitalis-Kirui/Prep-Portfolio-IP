@@ -333,3 +333,20 @@ Hobbies styling starts here  */
 }
 
 /* End of hobbies styling
+
+start of Skills stylings */
+
+.SkillstitleANDimage {
+    background-color: #F8A6A6;
+}
+
+.Skills {
+    padding: 20px;
+    border: #C2A2A2;
+    box-shadow: brown;
+    background-color: #F8A6A6;
+}
+
+/* end of skills styles
+
+end of about me styles*/
