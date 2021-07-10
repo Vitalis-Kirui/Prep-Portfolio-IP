@@ -380,3 +380,31 @@ end of about me styles*/
 }
 
 /* end of contact me section styles */
+
+/* footer styles */
+
+footer{
+    /* width: 100%; */
+    background-color: #CAB9CD;
+    border:1px;
+    margin-top: 20px;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding: 30px;
+    font-size: 24px;
+}
+
+#header1 {
+    font-size: 30px;
+    color:red;
+}
+
+footer a:hover{
+    color: yellow;
+}
+
+#rights {
+    padding-top: 20px;
+    text-align: center;
+    color: red;
+}
