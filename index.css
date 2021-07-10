@@ -65,7 +65,7 @@ Part 1 div stylings */
 
 .part1{
     width: 100%;
-    background-image: url(../Assets/Images/Wall1\ darken.jpg);
+    background-image: url(Assets/Images/Wall1\ darken.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
