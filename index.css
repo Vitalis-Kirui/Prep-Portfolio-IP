@@ -318,3 +318,18 @@ end of projects section stylinds */
 }
 
 /* End of Academics code
+
+Hobbies styling starts here  */
+
+.HobbiestitleANDimage {
+    background-color: #F8A6A6;
+}
+
+.Hobbies {
+    padding: 20px;
+    border: #C2A2A2;
+    box-shadow: brown;
+    background-color: #F8A6A6;
+}
+
+/* End of hobbies styling
