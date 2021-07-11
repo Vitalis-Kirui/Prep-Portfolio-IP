@@ -398,24 +398,28 @@
 
     <div class="contactMe">
 
-        <h1 id="hireMe">HIRE ME / REVIEW MY WORK</h1>
+        <h2 id="hireMe">HIRE ME / REVIEW MY WORK</h2>
 
         <hr>
 
         <div class="mb-3">
             <label for="exampleFormControlInput1" class="form-label">Email address:</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
           </div>
 
           <div class="mb-3">
             <label for="exampleFormControlInput1" class="form-label">Phone Number:</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="example 0712345678">
+            <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="example 0712345678" required>
           </div>
 
-          <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label">Enter your message below:</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Remember to indicate if you are hiring or leaving a review! Thanks"></textarea>
-          </div>
+          <form class="was-validated">
+            <div class="mb-3">
+              <label for="validationTextarea" class="form-label">Enter your message below:</label>
+              <textarea class="form-control is-invalid" id="validationTextarea" rows="5" placeholder="Remember to indicate whether you are hiring or leaving a review, thanks" required></textarea>
+              <div class="invalid-feedback">
+                Please leave your message here.
+              </div>
+            </div>
 
           <button id="contactButton"> Send Message </button>
 
