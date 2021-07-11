@@ -117,7 +117,7 @@ stylings for projects section */
 }
 
 h1 {
-    font-family: 'Cinzel Decorative', cursive;
+    /* font-family: 'Cinzel Decorative', cursive; */
     color: #4CAA4A;
     text-align: center;
 }
@@ -302,11 +302,11 @@ end of projects section stylinds */
 
 .colsAboutme ul {
     font-size: 22px;
-    color: rgb(125, 13, 153);
+    color: rgb(12, 22, 116);
 }
 
 #believe {
-    color: rgb(78, 32, 185);
+    color: rgb(33, 12, 83);
     font-size: 30px;
     text-align: center;
 }
